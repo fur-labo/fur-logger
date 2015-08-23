@@ -9,15 +9,15 @@ fur-logger
 [![Code Coverage][bd_codeclimate_coverage_shield_url]][bd_codeclimate_url]
 [![npm Version][bd_npm_shield_url]][bd_npm_url]
 
-[bd_repo_url]: https://github.com/coz-repo/fur-logger
-[bd_travis_url]: http://travis-ci.org/coz-repo/fur-logger
-[bd_travis_shield_url]: http://img.shields.io/travis/coz-repo/fur-logger.svg?style=flat
-[bd_license_url]: https://github.com/coz-repo/fur-logger/blob/master/LICENSE
-[bd_codeclimate_url]: http://codeclimate.com/github/coz-repo/fur-logger
-[bd_codeclimate_shield_url]: http://img.shields.io/codeclimate/github/coz-repo/fur-logger.svg?style=flat
-[bd_codeclimate_coverage_shield_url]: http://img.shields.io/codeclimate/coverage/github/coz-repo/fur-logger.svg?style=flat
-[bd_gemnasium_url]: https://gemnasium.com/coz-repo/fur-logger
-[bd_gemnasium_shield_url]: https://gemnasium.com/coz-repo/fur-logger.svg
+[bd_repo_url]: https://github.com/fur-repo/fur-logger
+[bd_travis_url]: http://travis-ci.org/fur-repo/fur-logger
+[bd_travis_shield_url]: http://img.shields.io/travis/fur-repo/fur-logger.svg?style=flat
+[bd_license_url]: https://github.com/fur-repo/fur-logger/blob/master/LICENSE
+[bd_codeclimate_url]: http://codeclimate.com/github/fur-repo/fur-logger
+[bd_codeclimate_shield_url]: http://img.shields.io/codeclimate/github/fur-repo/fur-logger.svg?style=flat
+[bd_codeclimate_coverage_shield_url]: http://img.shields.io/codeclimate/coverage/github/fur-repo/fur-logger.svg?style=flat
+[bd_gemnasium_url]: https://gemnasium.com/fur-repo/fur-logger
+[bd_gemnasium_shield_url]: https://gemnasium.com/fur-repo/fur-logger.svg
 [bd_npm_url]: http://www.npmjs.org/package/fur-logger
 [bd_npm_shield_url]: http://img.shields.io/npm/v/fur-logger.svg?style=flat
 
@@ -61,6 +61,8 @@ var furLogger = require('fur-logger');
 var logger = furLogger({});
 
 logger.logImageGenerated('public/images/my-favicon.svg');
+
+
 ```
 <!-- Section from "docs/readme/02.Usage.md.hbs" End -->
 
@@ -73,7 +75,7 @@ logger.logImageGenerated('public/images/my-favicon.svg');
 
 License
 -------
-This software is released under the [MIT License](https://github.com/coz-repo/fur-logger/blob/master/LICENSE).
+This software is released under the [MIT License](https://github.com/fur-repo/fur-logger/blob/master/LICENSE).
 
 <!-- LICENSE End -->
 
