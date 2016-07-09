@@ -1,22 +1,19 @@
 /**
  * Test case for furLogger.
- * Runs with nodeunit.
+ * Runs with mocha.
  */
+'use strict'
 
-var FurLogger = require('../lib/fur_logger.js');
+const FurLogger = require('../lib/fur_logger.js')
+const assert = require('assert')
 
-exports.setUp = function (done) {
-    done();
-};
+describe('fur-logger', function () {
+  it('Fur logger', (done) => {
+    let logger = new FurLogger()
+    assert.ok(logger)
+    logger.logImageGenerated('foo/bar.txt')
+    done()
+  })
+})
 
-exports.tearDown = function (done) {
-    done();
-};
-
-exports['Fur logger'] = function (test) {
-    var logger = new FurLogger();
-    test.ok(logger);
-    logger.logImageGenerated('foo/bar.txt');
-    test.done();
-};
-
+/* global describe, it */

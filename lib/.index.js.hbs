@@ -4,14 +4,17 @@
  * @version {{pkg.version}}
  */
 
-"use strict";
+'use strict'
 
 
-var FurLogger = require('./fur_logger');
-function furLogger(verbose){
-    return new FurLogger(verbose);
-}
+const FurLogger = require('./fur_logger')
+const create = require('./create')
 
-furLogger.FurLogger = FurLogger;
+let lib = create.bind(this)
 
-module.exports = furLogger;
+Object.assign(lib, FurLogger, ({
+  FurLogger,
+  create
+})
+
+module.exports = lib
