@@ -1,10 +1,11 @@
 {
   "name": "fur-logger",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Logger for fur",
   "main": "lib",
   "scripts": {
-    "test": "./ci/test.js"
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js"
   },
   "repository": "fur-labo/fur-logger",
   "keywords": [
@@ -20,6 +21,10 @@
     "url": "https://github.com/fur-labo/fur-logger/issues"
   },
   "homepage": "https://github.com/fur-labo/fur-logger#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "colorprint": "^4.0.2"
+  },
   "devDependencies": {
     "ape-covering": "^3.0.3",
     "ape-releasing": "^4.0.1",
@@ -33,9 +38,8 @@
     "injectmock": "^2.0.0",
     "mkdirp": "^0.5.1"
   },
-  "dependencies": {
-    "argx": "^2.0.2",
-    "async": "^1.5.2",
-    "colorprint": "^4.0.2"
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
   }
 }

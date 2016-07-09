@@ -100,6 +100,6 @@ Links
 
 + [fur][fur_url]
 
-[fur_url]: https://github.com/fur-repo/fur
+[fur_url]: https://github.com/fur-labo/fur
 
 <!-- Links End -->
