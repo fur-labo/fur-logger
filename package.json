@@ -34,7 +34,6 @@
     "ape-tmpl": "^5.0.11",
     "ape-updating": "^4.0.4",
     "coz": "^6.0.3",
-    "coz-tmpl": "^1.2.1",
     "injectmock": "^2.0.0",
     "mkdirp": "^0.5.1"
   },
